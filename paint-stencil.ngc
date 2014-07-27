@@ -6,15 +6,15 @@ M3
 (Header end.)
 G20 (All units in inches)
 
-(Laser Safety)
+(laser safety measures)
 M9
 G01 Z0.000000 F100.0(Penetrate)
 G00 Z0.000100
 M7
 
-(Pass at depth -0.998999999952)
 (Start cutting path id: line291)
 (Change tool to Default tool)
+
 G00 Z0.000100
 G00 X16.166615 Y0.755715
 
@@ -23,6 +23,7 @@ G01 X-0.038584 Y0.755715 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line291)
+
 
 (Start cutting path id: line285)
 (Change tool to Default tool)
@@ -36,6 +37,7 @@ G00 Z0.000100
 
 (End cutting path id: line285)
 
+
 (Start cutting path id: line287)
 (Change tool to Default tool)
 
@@ -47,6 +49,7 @@ G01 X16.166615 Y14.710193 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line287)
+
 
 (Start cutting path id: line289)
 (Change tool to Default tool)
@@ -60,6 +63,7 @@ G00 Z0.000100
 
 (End cutting path id: line289)
 
+
 (Start cutting path id: line37)
 (Change tool to Default tool)
 
@@ -71,6 +75,7 @@ G01 X15.500402 Y14.134008 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line37)
+
 
 (Start cutting path id: path39)
 (Change tool to Default tool)
@@ -87,6 +92,7 @@ G00 Z0.000100
 
 (End cutting path id: path39)
 
+
 (Start cutting path id: line41)
 (Change tool to Default tool)
 
@@ -98,6 +104,7 @@ G01 X14.960229 Y1.304891 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line41)
+
 
 (Start cutting path id: path43)
 (Change tool to Default tool)
@@ -114,6 +121,7 @@ G00 Z0.000100
 
 (End cutting path id: path43)
 
+
 (Start cutting path id: line29)
 (Change tool to Default tool)
 
@@ -125,6 +133,7 @@ G01 X14.600114 Y14.134008 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line29)
+
 
 (Start cutting path id: path31)
 (Change tool to Default tool)
@@ -141,6 +150,7 @@ G00 Z0.000100
 
 (End cutting path id: path31)
 
+
 (Start cutting path id: line33)
 (Change tool to Default tool)
 
@@ -152,6 +162,7 @@ G01 X14.059939 Y1.304891 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line33)
+
 
 (Start cutting path id: path35)
 (Change tool to Default tool)
@@ -168,6 +179,7 @@ G00 Z0.000100
 
 (End cutting path id: path35)
 
+
 (Start cutting path id: line121)
 (Change tool to Default tool)
 
@@ -180,6 +192,7 @@ G00 Z0.000100
 
 (End cutting path id: line121)
 
+
 (Start cutting path id: line117)
 (Change tool to Default tool)
 
@@ -191,6 +204,7 @@ G01 X13.069622 Y1.710021 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line117)
+
 
 (Start cutting path id: path103)
 (Change tool to Default tool)
@@ -207,6 +221,7 @@ G00 Z0.000100
 
 (End cutting path id: path103)
 
+
 (Start cutting path id: path87)
 (Change tool to Default tool)
 
@@ -221,6 +236,7 @@ G03 X13.069622 Y3.510599 Z0.000000 I-0.210944 J-0.175787
 G00 Z0.000100
 
 (End cutting path id: path87)
+
 
 (Start cutting path id: path71)
 (Change tool to Default tool)
@@ -237,6 +253,7 @@ G00 Z0.000100
 
 (End cutting path id: path71)
 
+
 (Start cutting path id: path55)
 (Change tool to Default tool)
 
@@ -251,6 +268,7 @@ G03 X13.069622 Y5.311177 Z0.000000 I-0.210944 J-0.175787
 G00 Z0.000100
 
 (End cutting path id: path55)
+
 
 (Start cutting path id: path199)
 (Change tool to Default tool)
@@ -267,6 +285,7 @@ G00 Z0.000100
 
 (End cutting path id: path199)
 
+
 (Start cutting path id: path183)
 (Change tool to Default tool)
 
@@ -282,6 +301,7 @@ G00 Z0.000100
 
 (End cutting path id: path183)
 
+
 (Start cutting path id: line169)
 (Change tool to Default tool)
 
@@ -294,6 +314,7 @@ G00 Z0.000100
 
 (End cutting path id: line169)
 
+
 (Start cutting path id: line181)
 (Change tool to Default tool)
 
@@ -305,6 +326,7 @@ G01 X13.069622 Y7.111755 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line181)
+
 
 (Start cutting path id: path167)
 (Change tool to Default tool)
@@ -321,6 +343,7 @@ G00 Z0.000100
 
 (End cutting path id: path167)
 
+
 (Start cutting path id: path151)
 (Change tool to Default tool)
 
@@ -335,6 +358,7 @@ G03 X13.069622 Y8.912332 Z0.000000 I-0.210944 J-0.175787
 G00 Z0.000100
 
 (End cutting path id: path151)
+
 
 (Start cutting path id: path135)
 (Change tool to Default tool)
@@ -351,6 +375,7 @@ G00 Z0.000100
 
 (End cutting path id: path135)
 
+
 (Start cutting path id: path279)
 (Change tool to Default tool)
 
@@ -365,6 +390,7 @@ G03 X13.069622 Y10.712910 Z0.000000 I-0.210944 J-0.175787
 G00 Z0.000100
 
 (End cutting path id: path279)
+
 
 (Start cutting path id: path263)
 (Change tool to Default tool)
@@ -381,6 +407,7 @@ G00 Z0.000100
 
 (End cutting path id: path263)
 
+
 (Start cutting path id: line249)
 (Change tool to Default tool)
 
@@ -392,6 +419,7 @@ G01 X9.288409 Y11.973314 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line249)
+
 
 (Start cutting path id: path267)
 (Change tool to Default tool)
@@ -408,6 +436,7 @@ G00 Z0.000100
 
 (End cutting path id: path267)
 
+
 (Start cutting path id: path283)
 (Change tool to Default tool)
 
@@ -422,6 +451,7 @@ G03 X9.288409 Y10.172737 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path283)
+
 
 (Start cutting path id: path139)
 (Change tool to Default tool)
@@ -438,6 +468,7 @@ G00 Z0.000100
 
 (End cutting path id: path139)
 
+
 (Start cutting path id: line149)
 (Change tool to Default tool)
 
@@ -450,6 +481,7 @@ G00 Z0.000100
 
 (End cutting path id: line149)
 
+
 (Start cutting path id: line137)
 (Change tool to Default tool)
 
@@ -461,6 +493,7 @@ G01 X9.288409 Y9.272448 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line137)
+
 
 (Start cutting path id: path155)
 (Change tool to Default tool)
@@ -477,6 +510,7 @@ G00 Z0.000100
 
 (End cutting path id: path155)
 
+
 (Start cutting path id: path171)
 (Change tool to Default tool)
 
@@ -491,6 +525,7 @@ G03 X9.288409 Y7.471870 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path171)
+
 
 (Start cutting path id: path187)
 (Change tool to Default tool)
@@ -507,6 +542,7 @@ G00 Z0.000100
 
 (End cutting path id: path187)
 
+
 (Start cutting path id: path203)
 (Change tool to Default tool)
 
@@ -521,6 +557,7 @@ G03 X9.288409 Y5.671292 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path203)
+
 
 (Start cutting path id: path59)
 (Change tool to Default tool)
@@ -537,6 +574,7 @@ G00 Z0.000100
 
 (End cutting path id: path59)
 
+
 (Start cutting path id: path75)
 (Change tool to Default tool)
 
@@ -551,6 +589,7 @@ G03 X9.288409 Y3.870715 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path75)
+
 
 (Start cutting path id: path91)
 (Change tool to Default tool)
@@ -567,6 +606,7 @@ G00 Z0.000100
 
 (End cutting path id: path91)
 
+
 (Start cutting path id: path107)
 (Change tool to Default tool)
 
@@ -581,6 +621,7 @@ G03 X9.288409 Y2.070137 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path107)
+
 
 (Start cutting path id: path123)
 (Change tool to Default tool)
@@ -597,6 +638,7 @@ G00 Z0.000100
 
 (End cutting path id: path123)
 
+
 (Start cutting path id: line101)
 (Change tool to Default tool)
 
@@ -608,6 +650,7 @@ G01 X13.069622 Y2.610310 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line101)
+
 
 (Start cutting path id: line89)
 (Change tool to Default tool)
@@ -621,6 +664,7 @@ G00 Z0.000100
 
 (End cutting path id: line89)
 
+
 (Start cutting path id: line85)
 (Change tool to Default tool)
 
@@ -632,6 +676,7 @@ G01 X13.069622 Y3.510599 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line85)
+
 
 (Start cutting path id: line73)
 (Change tool to Default tool)
@@ -645,6 +690,7 @@ G00 Z0.000100
 
 (End cutting path id: line73)
 
+
 (Start cutting path id: line69)
 (Change tool to Default tool)
 
@@ -656,6 +702,7 @@ G01 X13.069622 Y4.410888 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line69)
+
 
 (Start cutting path id: line57)
 (Change tool to Default tool)
@@ -669,6 +716,7 @@ G00 Z0.000100
 
 (End cutting path id: line57)
 
+
 (Start cutting path id: line53)
 (Change tool to Default tool)
 
@@ -680,6 +728,7 @@ G01 X13.069622 Y5.311177 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line53)
+
 
 (Start cutting path id: line201)
 (Change tool to Default tool)
@@ -693,6 +742,7 @@ G00 Z0.000100
 
 (End cutting path id: line201)
 
+
 (Start cutting path id: line197)
 (Change tool to Default tool)
 
@@ -704,6 +754,7 @@ G01 X13.069622 Y6.211466 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line197)
+
 
 (Start cutting path id: line185)
 (Change tool to Default tool)
@@ -717,6 +768,7 @@ G00 Z0.000100
 
 (End cutting path id: line185)
 
+
 (Start cutting path id: line165)
 (Change tool to Default tool)
 
@@ -728,6 +780,7 @@ G01 X13.069622 Y8.012043 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line165)
+
 
 (Start cutting path id: line153)
 (Change tool to Default tool)
@@ -741,6 +794,7 @@ G00 Z0.000100
 
 (End cutting path id: line153)
 
+
 (Start cutting path id: line133)
 (Change tool to Default tool)
 
@@ -752,6 +806,7 @@ G01 X13.069622 Y9.812621 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line133)
+
 
 (Start cutting path id: line281)
 (Change tool to Default tool)
@@ -765,6 +820,7 @@ G00 Z0.000100
 
 (End cutting path id: line281)
 
+
 (Start cutting path id: line277)
 (Change tool to Default tool)
 
@@ -776,6 +832,7 @@ G01 X13.069622 Y10.712910 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line277)
+
 
 (Start cutting path id: line265)
 (Change tool to Default tool)
@@ -789,6 +846,7 @@ G00 Z0.000100
 
 (End cutting path id: line265)
 
+
 (Start cutting path id: line261)
 (Change tool to Default tool)
 
@@ -800,6 +858,7 @@ G01 X13.069622 Y11.613199 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line261)
+
 
 (Start cutting path id: path247)
 (Change tool to Default tool)
@@ -816,6 +875,7 @@ G00 Z0.000100
 
 (End cutting path id: path247)
 
+
 (Start cutting path id: line233)
 (Change tool to Default tool)
 
@@ -828,6 +888,7 @@ G00 Z0.000100
 
 (End cutting path id: line233)
 
+
 (Start cutting path id: line245)
 (Change tool to Default tool)
 
@@ -839,6 +900,7 @@ G01 X13.069622 Y12.513488 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line245)
+
 
 (Start cutting path id: path231)
 (Change tool to Default tool)
@@ -855,6 +917,7 @@ G00 Z0.000100
 
 (End cutting path id: path231)
 
+
 (Start cutting path id: path215)
 (Change tool to Default tool)
 
@@ -870,6 +933,7 @@ G00 Z0.000100
 
 (End cutting path id: path215)
 
+
 (Start cutting path id: line217)
 (Change tool to Default tool)
 
@@ -882,6 +946,7 @@ G00 Z0.000100
 
 (End cutting path id: line217)
 
+
 (Start cutting path id: line229)
 (Change tool to Default tool)
 
@@ -893,6 +958,7 @@ G01 X13.069622 Y13.413777 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line229)
+
 
 (Start cutting path id: path235)
 (Change tool to Default tool)
@@ -909,6 +975,7 @@ G00 Z0.000100
 
 (End cutting path id: path235)
 
+
 (Start cutting path id: path251)
 (Change tool to Default tool)
 
@@ -923,6 +990,7 @@ G03 X9.288409 Y11.973315 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path251)
+
 
 (Start cutting path id: path219)
 (Change tool to Default tool)
@@ -939,6 +1007,7 @@ G00 Z0.000100
 
 (End cutting path id: path219)
 
+
 (Start cutting path id: line213)
 (Change tool to Default tool)
 
@@ -950,6 +1019,7 @@ G01 X13.069622 Y14.314066 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line213)
+
 
 (Start cutting path id: line209)
 (Change tool to Default tool)
@@ -963,6 +1033,7 @@ G00 Z0.000100
 
 (End cutting path id: line209)
 
+
 (Start cutting path id: line221)
 (Change tool to Default tool)
 
@@ -974,6 +1045,7 @@ G01 X6.767600 Y13.413777 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line221)
+
 
 (Start cutting path id: path207)
 (Change tool to Default tool)
@@ -990,6 +1062,7 @@ G00 Z0.000100
 
 (End cutting path id: path207)
 
+
 (Start cutting path id: path223)
 (Change tool to Default tool)
 
@@ -1005,6 +1078,7 @@ G00 Z0.000100
 
 (End cutting path id: path223)
 
+
 (Start cutting path id: line225)
 (Change tool to Default tool)
 
@@ -1017,6 +1091,7 @@ G00 Z0.000100
 
 (End cutting path id: line225)
 
+
 (Start cutting path id: line237)
 (Change tool to Default tool)
 
@@ -1028,6 +1103,7 @@ G01 X6.767600 Y12.513488 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line237)
+
 
 (Start cutting path id: path239)
 (Change tool to Default tool)
@@ -1044,6 +1120,7 @@ G00 Z0.000100
 
 (End cutting path id: path239)
 
+
 (Start cutting path id: line241)
 (Change tool to Default tool)
 
@@ -1055,6 +1132,7 @@ G01 X2.986387 Y11.973314 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line241)
+
 
 (Start cutting path id: path259)
 (Change tool to Default tool)
@@ -1071,6 +1149,7 @@ G00 Z0.000100
 
 (End cutting path id: path259)
 
+
 (Start cutting path id: path275)
 (Change tool to Default tool)
 
@@ -1085,6 +1164,7 @@ G03 X2.986387 Y10.172737 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path275)
+
 
 (Start cutting path id: path131)
 (Change tool to Default tool)
@@ -1101,6 +1181,7 @@ G00 Z0.000100
 
 (End cutting path id: path131)
 
+
 (Start cutting path id: line141)
 (Change tool to Default tool)
 
@@ -1113,6 +1194,7 @@ G00 Z0.000100
 
 (End cutting path id: line141)
 
+
 (Start cutting path id: line129)
 (Change tool to Default tool)
 
@@ -1124,6 +1206,7 @@ G01 X2.986387 Y9.272448 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line129)
+
 
 (Start cutting path id: path147)
 (Change tool to Default tool)
@@ -1140,6 +1223,7 @@ G00 Z0.000100
 
 (End cutting path id: path147)
 
+
 (Start cutting path id: path163)
 (Change tool to Default tool)
 
@@ -1154,6 +1238,7 @@ G03 X2.986387 Y7.471870 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path163)
+
 
 (Start cutting path id: path179)
 (Change tool to Default tool)
@@ -1170,6 +1255,7 @@ G00 Z0.000100
 
 (End cutting path id: path179)
 
+
 (Start cutting path id: path195)
 (Change tool to Default tool)
 
@@ -1184,6 +1270,7 @@ G03 X2.986387 Y5.671292 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path195)
+
 
 (Start cutting path id: path51)
 (Change tool to Default tool)
@@ -1200,6 +1287,7 @@ G00 Z0.000100
 
 (End cutting path id: path51)
 
+
 (Start cutting path id: path67)
 (Change tool to Default tool)
 
@@ -1214,6 +1302,7 @@ G03 X2.986387 Y3.870715 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path67)
+
 
 (Start cutting path id: path83)
 (Change tool to Default tool)
@@ -1230,6 +1319,7 @@ G00 Z0.000100
 
 (End cutting path id: path83)
 
+
 (Start cutting path id: path99)
 (Change tool to Default tool)
 
@@ -1244,6 +1334,7 @@ G03 X2.986387 Y2.070137 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path99)
+
 
 (Start cutting path id: path115)
 (Change tool to Default tool)
@@ -1260,6 +1351,7 @@ G00 Z0.000100
 
 (End cutting path id: path115)
 
+
 (Start cutting path id: line109)
 (Change tool to Default tool)
 
@@ -1271,6 +1363,7 @@ G01 X6.767600 Y1.710021 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line109)
+
 
 (Start cutting path id: path95)
 (Change tool to Default tool)
@@ -1287,6 +1380,7 @@ G00 Z0.000100
 
 (End cutting path id: path95)
 
+
 (Start cutting path id: line81)
 (Change tool to Default tool)
 
@@ -1299,6 +1393,7 @@ G00 Z0.000100
 
 (End cutting path id: line81)
 
+
 (Start cutting path id: line93)
 (Change tool to Default tool)
 
@@ -1310,6 +1405,7 @@ G01 X6.767600 Y2.610310 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line93)
+
 
 (Start cutting path id: path79)
 (Change tool to Default tool)
@@ -1326,6 +1422,7 @@ G00 Z0.000100
 
 (End cutting path id: path79)
 
+
 (Start cutting path id: path63)
 (Change tool to Default tool)
 
@@ -1340,6 +1437,7 @@ G03 X6.767600 Y4.410888 Z0.000000 I-0.210944 J-0.175787
 G00 Z0.000100
 
 (End cutting path id: path63)
+
 
 (Start cutting path id: path47)
 (Change tool to Default tool)
@@ -1356,6 +1454,7 @@ G00 Z0.000100
 
 (End cutting path id: path47)
 
+
 (Start cutting path id: line193)
 (Change tool to Default tool)
 
@@ -1368,6 +1467,7 @@ G00 Z0.000100
 
 (End cutting path id: line193)
 
+
 (Start cutting path id: line45)
 (Change tool to Default tool)
 
@@ -1379,6 +1479,7 @@ G01 X6.767600 Y5.311177 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line45)
+
 
 (Start cutting path id: path191)
 (Change tool to Default tool)
@@ -1395,6 +1496,7 @@ G00 Z0.000100
 
 (End cutting path id: path191)
 
+
 (Start cutting path id: line177)
 (Change tool to Default tool)
 
@@ -1407,6 +1509,7 @@ G00 Z0.000100
 
 (End cutting path id: line177)
 
+
 (Start cutting path id: line189)
 (Change tool to Default tool)
 
@@ -1418,6 +1521,7 @@ G01 X6.767600 Y6.211466 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line189)
+
 
 (Start cutting path id: path175)
 (Change tool to Default tool)
@@ -1434,6 +1538,7 @@ G00 Z0.000100
 
 (End cutting path id: path175)
 
+
 (Start cutting path id: line161)
 (Change tool to Default tool)
 
@@ -1446,6 +1551,7 @@ G00 Z0.000100
 
 (End cutting path id: line161)
 
+
 (Start cutting path id: line173)
 (Change tool to Default tool)
 
@@ -1457,6 +1563,7 @@ G01 X6.767600 Y7.111755 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line173)
+
 
 (Start cutting path id: path159)
 (Change tool to Default tool)
@@ -1473,6 +1580,7 @@ G00 Z0.000100
 
 (End cutting path id: path159)
 
+
 (Start cutting path id: line145)
 (Change tool to Default tool)
 
@@ -1485,6 +1593,7 @@ G00 Z0.000100
 
 (End cutting path id: line145)
 
+
 (Start cutting path id: line157)
 (Change tool to Default tool)
 
@@ -1496,6 +1605,7 @@ G01 X6.767600 Y8.012043 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line157)
+
 
 (Start cutting path id: path143)
 (Change tool to Default tool)
@@ -1512,6 +1622,7 @@ G00 Z0.000100
 
 (End cutting path id: path143)
 
+
 (Start cutting path id: path127)
 (Change tool to Default tool)
 
@@ -1527,6 +1638,7 @@ G00 Z0.000100
 
 (End cutting path id: path127)
 
+
 (Start cutting path id: line273)
 (Change tool to Default tool)
 
@@ -1539,6 +1651,7 @@ G00 Z0.000100
 
 (End cutting path id: line273)
 
+
 (Start cutting path id: line125)
 (Change tool to Default tool)
 
@@ -1550,6 +1663,7 @@ G01 X6.767600 Y9.812621 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line125)
+
 
 (Start cutting path id: path271)
 (Change tool to Default tool)
@@ -1566,6 +1680,7 @@ G00 Z0.000100
 
 (End cutting path id: path271)
 
+
 (Start cutting path id: line257)
 (Change tool to Default tool)
 
@@ -1578,6 +1693,7 @@ G00 Z0.000100
 
 (End cutting path id: line257)
 
+
 (Start cutting path id: line269)
 (Change tool to Default tool)
 
@@ -1589,6 +1705,7 @@ G01 X6.767600 Y10.712910 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line269)
+
 
 (Start cutting path id: path255)
 (Change tool to Default tool)
@@ -1605,6 +1722,7 @@ G00 Z0.000100
 
 (End cutting path id: path255)
 
+
 (Start cutting path id: line253)
 (Change tool to Default tool)
 
@@ -1616,6 +1734,7 @@ G01 X6.767600 Y11.613199 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line253)
+
 
 (Start cutting path id: path243)
 (Change tool to Default tool)
@@ -1632,6 +1751,7 @@ G00 Z0.000100
 
 (End cutting path id: path243)
 
+
 (Start cutting path id: path227)
 (Change tool to Default tool)
 
@@ -1646,6 +1766,7 @@ G03 X2.986387 Y12.873603 Z0.000000 I0.210944 J0.175787
 G00 Z0.000100
 
 (End cutting path id: path227)
+
 
 (Start cutting path id: path211)
 (Change tool to Default tool)
@@ -1662,6 +1783,7 @@ G00 Z0.000100
 
 (End cutting path id: path211)
 
+
 (Start cutting path id: line205)
 (Change tool to Default tool)
 
@@ -1673,6 +1795,7 @@ G01 X6.767600 Y14.314066 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line205)
+
 
 (Start cutting path id: path23)
 (Change tool to Default tool)
@@ -1689,6 +1812,7 @@ G00 Z0.000100
 
 (End cutting path id: path23)
 
+
 (Start cutting path id: line25)
 (Change tool to Default tool)
 
@@ -1700,6 +1824,7 @@ G01 X1.455895 Y1.304891 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line25)
+
 
 (Start cutting path id: path27)
 (Change tool to Default tool)
@@ -1716,6 +1841,7 @@ G00 Z0.000100
 
 (End cutting path id: path27)
 
+
 (Start cutting path id: line21)
 (Change tool to Default tool)
 
@@ -1727,6 +1853,7 @@ G01 X1.996069 Y14.134008 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line21)
+
 
 (Start cutting path id: path15)
 (Change tool to Default tool)
@@ -1743,6 +1870,7 @@ G00 Z0.000100
 
 (End cutting path id: path15)
 
+
 (Start cutting path id: line17)
 (Change tool to Default tool)
 
@@ -1754,6 +1882,7 @@ G01 X0.555607 Y1.304891 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line17)
+
 
 (Start cutting path id: path19)
 (Change tool to Default tool)
@@ -1770,6 +1899,7 @@ G00 Z0.000100
 
 (End cutting path id: path19)
 
+
 (Start cutting path id: line13)
 (Change tool to Default tool)
 
@@ -1781,6 +1911,7 @@ G01 X1.095780 Y14.134008 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line13)
+
 
 (Start cutting path id: line61)
 (Change tool to Default tool)
@@ -1794,6 +1925,7 @@ G00 Z0.000100
 
 (End cutting path id: line61)
 
+
 (Start cutting path id: line49)
 (Change tool to Default tool)
 
@@ -1805,6 +1937,7 @@ G01 X2.986387 Y4.771004 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line49)
+
 
 (Start cutting path id: line77)
 (Change tool to Default tool)
@@ -1818,6 +1951,7 @@ G00 Z0.000100
 
 (End cutting path id: line77)
 
+
 (Start cutting path id: line65)
 (Change tool to Default tool)
 
@@ -1829,6 +1963,7 @@ G01 X2.986387 Y3.870715 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line65)
+
 
 (Start cutting path id: line97)
 (Change tool to Default tool)
@@ -1842,6 +1977,7 @@ G00 Z0.000100
 
 (End cutting path id: line97)
 
+
 (Start cutting path id: line113)
 (Change tool to Default tool)
 
@@ -1853,6 +1989,7 @@ G01 X2.986387 Y1.169848 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line113)
+
 
 (Start cutting path id: path111)
 (Change tool to Default tool)
@@ -1869,6 +2006,7 @@ G00 Z0.000100
 
 (End cutting path id: path111)
 
+
 (Start cutting path id: line105)
 (Change tool to Default tool)
 
@@ -1880,6 +2018,7 @@ G01 X9.288409 Y2.070137 Z0.000000 F400.000000
 G00 Z0.000100
 
 (End cutting path id: line105)
+
 
 (Start cutting path id: path119)
 (Change tool to Default tool)
