@@ -1123,38 +1123,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RS_A" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 <part name="RS_B" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 <part name="LED" library="tekdemo" deviceset="LED" device="UNIVERSAL"/>
-<part name="D_VR" library="tekdemo" deviceset="LED" device="UNIVERSAL" value="Schottky Diode"/>
+<part name="D_VR" library="tekdemo" deviceset="LED" device="UNIVERSAL"/>
 <part name="N-MOS" library="tekdemo" deviceset="MOSFET-NCHANNEL" device="SMD"/>
 <part name="R_F" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
-<part name="U$1" library="SparkFun-AnalogIC" deviceset="OPA344" device=""/>
-<part name="U$2" library="SparkFun-AnalogIC" deviceset="OPA344" device=""/>
-<part name="R_GPU" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
+<part name="OP_GAIN" library="SparkFun-AnalogIC" deviceset="OPA344" device="" value=""/>
+<part name="OP_OC" library="SparkFun-AnalogIC" deviceset="OPA344" device=""/>
 <part name="R_G" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 <part name="R_F1" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 <part name="R_G1" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 <part name="P-MOS" library="tekdemo" deviceset="MOSFET-PCHANNEL" device="" value=""/>
+<part name="R_GPU" library="tekdemo" deviceset="RESISTOR" device="UNIVERSAL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="22.86" y="40.64" size="1.778" layer="91">CHECK PINOUTS FOR FETS!</text>
-<text x="22.86" y="43.18" size="1.778" layer="91">WILL THIS NEED REVERSE POLARITY FET? I DON'T KNOW.</text>
-<text x="22.86" y="38.1" size="1.778" layer="91">check polarity of op amp!</text>
-<wire x1="-33.02" y1="45.72" x2="-33.02" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="-33.02" y1="-25.4" x2="2.54" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="-35.56" y1="45.72" x2="-35.56" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="-35.56" y1="-25.4" x2="2.54" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
 <wire x1="2.54" y1="-25.4" x2="2.54" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="2.54" y1="45.72" x2="-33.02" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="12.7" y1="45.72" x2="12.7" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="12.7" y1="-25.4" x2="53.34" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="53.34" y1="-25.4" x2="53.34" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="53.34" y1="45.72" x2="12.7" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="60.96" y1="-25.4" x2="60.96" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="60.96" y1="45.72" x2="106.68" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="106.68" y1="45.72" x2="106.68" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
-<wire x1="106.68" y1="-25.4" x2="60.96" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="45.72" x2="-35.56" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="45.72" x2="10.16" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="10.16" y1="-25.4" x2="58.42" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="58.42" y1="-25.4" x2="58.42" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="58.42" y1="45.72" x2="10.16" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="-25.4" x2="66.04" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="66.04" y1="45.72" x2="111.76" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="111.76" y1="45.72" x2="111.76" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<wire x1="111.76" y1="-25.4" x2="66.04" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
 <text x="-25.4" y="48.26" size="1.778" layer="94">DRIVER STAGE</text>
-<text x="22.86" y="48.26" size="1.778" layer="94">GAIN STAGE</text>
-<text x="66.04" y="48.26" size="1.778" layer="94">OVER-CURRENT-DETECTION</text>
+<text x="27.94" y="48.26" size="1.778" layer="94">GAIN STAGE</text>
+<text x="71.12" y="48.26" size="1.778" layer="94">OVER-CURRENT-DETECTION</text>
 <wire x1="-83.82" y1="68.58" x2="-83.82" y2="-48.26" width="0.2032" layer="94" style="longdash"/>
 <wire x1="-83.82" y1="-48.26" x2="121.92" y2="-48.26" width="0.2032" layer="94" style="longdash"/>
 <wire x1="121.92" y1="-48.26" x2="121.92" y2="68.58" width="0.2032" layer="94" style="longdash"/>
@@ -1163,22 +1160,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-68.58" y1="45.72" x2="-68.58" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
 <wire x1="-43.18" y1="45.72" x2="-68.58" y2="45.72" width="0.2032" layer="94" style="shortdash"/>
 <wire x1="-43.18" y1="-25.4" x2="-68.58" y2="-25.4" width="0.2032" layer="94" style="shortdash"/>
+<text x="-63.5" y="48.26" size="1.778" layer="94">REVERSE-POLARITY
+PROTECTION</text>
 </plain>
 <instances>
-<instance part="RD" gate="G$1" x="68.58" y="5.08" rot="R270"/>
+<instance part="RD" gate="G$1" x="76.2" y="15.24" rot="R270"/>
 <instance part="RS_A" gate="G$1" x="-12.7" y="-7.62" rot="R270"/>
 <instance part="RS_B" gate="G$1" x="-20.32" y="-7.62" rot="R270"/>
 <instance part="LED" gate="G$1" x="-12.7" y="30.48"/>
-<instance part="D_VR" gate="G$1" x="68.58" y="-10.16"/>
+<instance part="D_VR" gate="G$1" x="76.2" y="-10.16"/>
 <instance part="N-MOS" gate="G$1" x="-12.7" y="7.62"/>
-<instance part="R_F" gate="G$1" x="40.64" y="10.16" rot="R90"/>
-<instance part="U$1" gate="G$1" x="25.4" y="15.24"/>
-<instance part="U$2" gate="G$1" x="78.74" y="15.24"/>
-<instance part="R_GPU" gate="G$1" x="-20.32" y="27.94" rot="R90"/>
-<instance part="R_G" gate="G$1" x="40.64" y="0" rot="R90"/>
-<instance part="R_F1" gate="G$1" x="45.72" y="10.16" rot="R90"/>
-<instance part="R_G1" gate="G$1" x="45.72" y="0" rot="R90"/>
+<instance part="R_F" gate="G$1" x="50.8" y="10.16" rot="R270"/>
+<instance part="OP_GAIN" gate="G$1" x="30.48" y="15.24"/>
+<instance part="OP_OC" gate="G$1" x="96.52" y="15.24"/>
+<instance part="R_G" gate="G$1" x="50.8" y="-5.08" rot="R270"/>
+<instance part="R_F1" gate="G$1" x="45.72" y="10.16" rot="R270"/>
+<instance part="R_G1" gate="G$1" x="45.72" y="-5.08" rot="R270"/>
 <instance part="P-MOS" gate="G$1" x="-55.88" y="33.02" rot="MR90"/>
+<instance part="R_GPU" gate="G$1" x="-20.32" y="27.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -1199,64 +1198,59 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="N-MOS" gate="G$1" pin="D"/>
 <pinref part="LED" gate="G$1" pin="C"/>
 <wire x1="-12.7" y1="25.4" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="12.7" x2="20.32" y2="12.7" width="0.2032" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="+IN"/>
+<wire x1="-12.7" y1="12.7" x2="25.4" y2="12.7" width="0.2032" layer="91"/>
+<pinref part="OP_GAIN" gate="G$1" pin="+IN"/>
 <label x="-2.54" y="12.7" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="RD" gate="G$1" pin="2"/>
-<pinref part="D_VR" gate="G$1" pin="A"/>
-<wire x1="68.58" y1="0" x2="68.58" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="V+"/>
-<wire x1="25.4" y1="33.02" x2="25.4" y2="22.86" width="0.2032" layer="91"/>
-<label x="12.7" y="33.02" size="1.778" layer="95"/>
+<pinref part="OP_GAIN" gate="G$1" pin="V+"/>
+<wire x1="30.48" y1="33.02" x2="30.48" y2="22.86" width="0.2032" layer="91"/>
+<label x="17.78" y="33.02" size="1.778" layer="95"/>
 <pinref part="LED" gate="G$1" pin="A"/>
-<wire x1="25.4" y1="33.02" x2="-12.7" y2="33.02" width="0.2032" layer="91"/>
-<pinref part="R_GPU" gate="G$1" pin="2"/>
-<wire x1="-20.32" y1="33.02" x2="-12.7" y2="33.02" width="0.2032" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="V+"/>
-<wire x1="25.4" y1="33.02" x2="78.74" y2="33.02" width="0.2032" layer="91"/>
-<wire x1="78.74" y1="33.02" x2="78.74" y2="22.86" width="0.2032" layer="91"/>
-<wire x1="-20.32" y1="33.02" x2="-50.8" y2="33.02" width="0.2032" layer="91"/>
+<wire x1="30.48" y1="33.02" x2="-12.7" y2="33.02" width="0.2032" layer="91"/>
+<pinref part="OP_OC" gate="G$1" pin="V+"/>
+<wire x1="30.48" y1="33.02" x2="76.2" y2="33.02" width="0.2032" layer="91"/>
+<wire x1="76.2" y1="33.02" x2="96.52" y2="33.02" width="0.2032" layer="91"/>
+<wire x1="96.52" y1="33.02" x2="96.52" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="-12.7" y1="33.02" x2="-20.32" y2="33.02" width="0.2032" layer="91"/>
 <pinref part="P-MOS" gate="G$1" pin="S"/>
+<pinref part="R_GPU" gate="G$1" pin="1"/>
+<wire x1="-20.32" y1="33.02" x2="-50.8" y2="33.02" width="0.2032" layer="91"/>
+<junction x="-20.32" y="33.02"/>
+<pinref part="RD" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="20.32" x2="76.2" y2="33.02" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="GATE" class="0">
 <segment>
 <pinref part="N-MOS" gate="G$1" pin="G"/>
-<pinref part="R_GPU" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="22.86" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
-<label x="-20.32" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-20.32" y1="5.08" x2="-25.4" y2="5.08" width="0.2032" layer="91"/>
+<label x="-25.4" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R_GPU" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="OUT"/>
-<wire x1="88.9" y1="15.24" x2="93.98" y2="15.24" width="0.2032" layer="91"/>
-<label x="93.98" y="15.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="OP_OC" gate="G$1" pin="OUT"/>
+<wire x1="106.68" y1="15.24" x2="111.76" y2="15.24" width="0.2032" layer="91"/>
+<label x="111.76" y="15.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="V-"/>
-<wire x1="25.4" y1="7.62" x2="25.4" y2="-15.24" width="0.2032" layer="91"/>
-<wire x1="25.4" y1="-15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="91"/>
+<pinref part="OP_GAIN" gate="G$1" pin="V-"/>
+<wire x1="30.48" y1="7.62" x2="30.48" y2="-15.24" width="0.2032" layer="91"/>
+<wire x1="30.48" y1="-15.24" x2="-12.7" y2="-15.24" width="0.2032" layer="91"/>
 <pinref part="RS_A" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="-12.7" x2="-12.7" y2="-15.24" width="0.2032" layer="91"/>
-<pinref part="R_G" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-5.08" x2="40.64" y2="-15.24" width="0.2032" layer="91"/>
-<wire x1="40.64" y1="-15.24" x2="25.4" y2="-15.24" width="0.2032" layer="91"/>
 <pinref part="D_VR" gate="G$1" pin="C"/>
-<wire x1="40.64" y1="-15.24" x2="68.58" y2="-15.24" width="0.2032" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="V-"/>
-<wire x1="78.74" y1="7.62" x2="78.74" y2="-15.24" width="0.2032" layer="91"/>
-<wire x1="78.74" y1="-15.24" x2="68.58" y2="-15.24" width="0.2032" layer="91"/>
-<pinref part="R_G1" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="-5.08" x2="45.72" y2="-5.08" width="0.2032" layer="91" style="longdash"/>
+<wire x1="30.48" y1="-15.24" x2="45.72" y2="-15.24" width="0.2032" layer="91"/>
+<pinref part="OP_OC" gate="G$1" pin="V-"/>
+<wire x1="45.72" y1="-15.24" x2="50.8" y2="-15.24" width="0.2032" layer="91"/>
+<wire x1="50.8" y1="-15.24" x2="76.2" y2="-15.24" width="0.2032" layer="91"/>
+<wire x1="96.52" y1="7.62" x2="96.52" y2="-15.24" width="0.2032" layer="91"/>
+<wire x1="96.52" y1="-15.24" x2="76.2" y2="-15.24" width="0.2032" layer="91"/>
 <pinref part="RS_B" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="-12.7" x2="-12.7" y2="-12.7" width="0.2032" layer="91" style="longdash"/>
 <wire x1="-12.7" y1="-15.24" x2="-53.34" y2="-15.24" width="0.2032" layer="91"/>
@@ -1264,43 +1258,62 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-53.34" y1="-15.24" x2="-73.66" y2="-15.24" width="0.2032" layer="91"/>
 <wire x1="-53.34" y1="25.4" x2="-53.34" y2="-15.24" width="0.2032" layer="91"/>
 <label x="-73.66" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R_G1" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="-10.16" x2="45.72" y2="-15.24" width="0.2032" layer="91"/>
+<pinref part="R_G" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="-10.16" x2="50.8" y2="-15.24" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="VDIV" class="0">
 <segment>
-<pinref part="R_F" gate="G$1" pin="1"/>
-<pinref part="R_G" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="5.08" x2="15.24" y2="5.08" width="0.2032" layer="91"/>
-<wire x1="15.24" y1="5.08" x2="15.24" y2="17.78" width="0.2032" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="-IN"/>
-<wire x1="15.24" y1="17.78" x2="20.32" y2="17.78" width="0.2032" layer="91"/>
-<pinref part="R_F1" gate="G$1" pin="1"/>
-<pinref part="R_G1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="5.08" x2="45.72" y2="5.08" width="0.2032" layer="91" style="longdash"/>
-<label x="20.32" y="5.08" size="1.778" layer="95" rot="R270" xref="yes"/>
+<wire x1="12.7" y1="2.54" x2="12.7" y2="22.86" width="0.2032" layer="91"/>
+<pinref part="OP_GAIN" gate="G$1" pin="-IN"/>
+<wire x1="12.7" y1="22.86" x2="25.4" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="25.4" y1="22.86" x2="25.4" y2="17.78" width="0.2032" layer="91"/>
+<label x="25.4" y="2.54" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="R_G" gate="G$1" pin="1"/>
+<pinref part="R_F" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="0" x2="50.8" y2="2.54" width="0.2032" layer="91"/>
+<pinref part="R_F1" gate="G$1" pin="2"/>
+<pinref part="R_G1" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="2.54" x2="50.8" y2="5.08" width="0.2032" layer="91"/>
+<wire x1="45.72" y1="5.08" x2="45.72" y2="2.54" width="0.2032" layer="91"/>
+<wire x1="45.72" y1="2.54" x2="45.72" y2="0" width="0.2032" layer="91"/>
+<wire x1="50.8" y1="2.54" x2="45.72" y2="2.54" width="0.2032" layer="91"/>
+<wire x1="45.72" y1="2.54" x2="12.7" y2="2.54" width="0.2032" layer="91"/>
+<junction x="45.72" y="2.54"/>
+<junction x="50.8" y="2.54"/>
 </segment>
 </net>
 <net name="V_AMP" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
-<pinref part="R_F" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="15.24" x2="40.64" y2="15.24" width="0.2032" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="-IN"/>
-<wire x1="73.66" y1="17.78" x2="45.72" y2="17.78" width="0.2032" layer="91"/>
-<wire x1="45.72" y1="17.78" x2="45.72" y2="15.24" width="0.2032" layer="91"/>
-<wire x1="45.72" y1="15.24" x2="40.64" y2="15.24" width="0.2032" layer="91"/>
-<pinref part="R_F1" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="15.24" x2="45.72" y2="15.24" width="0.2032" layer="91" style="longdash"/>
-<label x="48.26" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="OP_OC" gate="G$1" pin="-IN"/>
+<wire x1="91.44" y1="17.78" x2="91.44" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="91.44" y1="22.86" x2="86.36" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="81.28" y1="22.86" x2="86.36" y2="22.86" width="0.2032" layer="91"/>
+<wire x1="86.36" y1="22.86" x2="50.8" y2="22.86" width="0.2032" layer="91"/>
+<label x="53.34" y="17.78" size="1.778" layer="95" rot="R90" xref="yes"/>
+<junction x="86.36" y="22.86"/>
+<pinref part="OP_GAIN" gate="G$1" pin="OUT"/>
+<pinref part="R_F1" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="15.24" x2="45.72" y2="15.24" width="0.2032" layer="91"/>
+<pinref part="R_F" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="15.24" x2="50.8" y2="15.24" width="0.2032" layer="91"/>
+<wire x1="50.8" y1="15.24" x2="50.8" y2="22.86" width="0.2032" layer="91"/>
 </segment>
 </net>
 <net name="VREF" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="+IN"/>
-<pinref part="RD" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="12.7" x2="68.58" y2="12.7" width="0.2032" layer="91"/>
-<wire x1="68.58" y1="12.7" x2="68.58" y2="10.16" width="0.2032" layer="91"/>
-<label x="68.58" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="OP_OC" gate="G$1" pin="+IN"/>
+<wire x1="91.44" y1="12.7" x2="86.36" y2="7.62" width="0.2032" layer="91"/>
+<wire x1="86.36" y1="7.62" x2="76.2" y2="7.62" width="0.2032" layer="91"/>
+<label x="73.66" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="RD" gate="G$1" pin="2"/>
+<pinref part="D_VR" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="7.62" x2="73.66" y2="7.62" width="0.2032" layer="91"/>
+<wire x1="76.2" y1="10.16" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<junction x="76.2" y="7.62"/>
+<wire x1="76.2" y1="7.62" x2="76.2" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -1315,4 +1328,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
