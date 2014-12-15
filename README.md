@@ -18,7 +18,7 @@ Among the common issues we've incounted during workshops, demos, and clases:
 
 So, we tried to make something a bit more robust, visible, beginner friendly, and fun! This is the result.
 
-![Bigger Better Breadboard: 100% more googly](.breadboard.jpg)
+![Bigger Better Breadboard: 100% more googly](./breadboard.jpg)
 
 
 

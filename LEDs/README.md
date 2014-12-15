@@ -60,8 +60,8 @@ Some of the strange behaviours of this circuit come from tricky aspects of the d
 Known Issues
 ------------
 
-- Standard iodes do not provide a temperature compensated voltage reference
-- LEDS placed in a plastic enclosure in sunlight get very hot
+- Standard diodes do not provide a temperature compensated voltage reference
+- LEDS placed in a plastic enclosure in sunlight get very warm
 - As a result, the circuit tends to allow over-current when heated, somewhat diminishing the intention.
 - Mounting holes on PCB don't line up with the 3D model, and are too small
 - The small mounting holes can cause shorts to the top and bottom layers when assembled with metal screws.
