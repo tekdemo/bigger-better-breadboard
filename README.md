@@ -25,7 +25,7 @@ So, we tried to make something a bit more robust, visible, beginner friendly, an
 
 
 
-Liscence
+License
 --------
-This design is intended to be open hardware, and is liscenced under [Creative Commons Attribution, Share-Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-If this liscence prohibits you from enjoying this project, please let us know so we can consider adjusting the liscence. 
+This design is intended to be open hardware, and is licensed under [Creative Commons Attribution, Share-Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+If this license prohibits you from enjoying this project, please let us know so we can consider adjusting the license. 
