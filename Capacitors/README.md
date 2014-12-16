@@ -7,7 +7,10 @@ with the addition of a P-Channel mosfet for reverse polarity protection.
 
 Parts List
 ----------
+
 quantity| Description 	| Spec		| Link
 -------:|---------------|---------------|------
 1 | Capacitor           | any 0402,0603, 0805, or through-hole | 
 1 | N-Channel Mostfet   | IRLML5103 S0T-23 or equivilent | [Digikey](http://www.digikey.com/product-detail/en/IRLML5103GTRPBF/IRLML5103GTRPBFCT-ND/2354248)
+2, suggested	|	Googly Eyes 	 	| 0.25" diameter	| 
+2 				| Purple Banana Plugs, male |	| [Digikey](http://www.digikey.com/product-search/en?vendor=0&keywords=j345-ND)
