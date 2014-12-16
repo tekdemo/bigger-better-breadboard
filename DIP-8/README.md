@@ -13,7 +13,7 @@ Part List
 ---------
 
 quantity        | Description 	        | Spec		    | Link
----------------:|-----------------------|---------------|------
+---------------|-----------------------|---------------|------
 1				|	DIP8 IC			 	|				| 
 1, optional		|	DIP8 Socket	 		|				| 
 0-8, as needed	|	Resistors			| 	 200 ohm    |

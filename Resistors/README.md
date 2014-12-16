@@ -15,7 +15,7 @@ Resistor Part List
 ---------
 
 quantity| Description 	| Spec		| Link
--------:|---------------|---------------|------
+-------|---------------|---------------|------
 1 | resistor           | any 0402,0603, 0805, or through-hole | 
 
 
@@ -24,7 +24,7 @@ Varistor Part List
 ---------
 
 quantity| Description 	| Spec										| Link
--------:|---------------|-------------------------------------------|------
+-------|---------------|-------------------------------------------|------
 1 | resistor            | 100 ohm, 0402,0603, 0805, or through-hole | 
 1 | Sliding Potentiometer | PTE60-151B-102B2 | [Digikey](http://www.digikey.com/product-detail/en/PTE60-151B-102B2/PTE60-151B-102B2-ND/3781262)
 
