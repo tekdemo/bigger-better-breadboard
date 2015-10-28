@@ -21,8 +21,9 @@ So, we tried to make something a bit more robust, visible, beginner friendly, an
 ![Bigger Better Breadboard: 100% more googly](./breadboard.jpg)
 
 
-
-
+Details
+-------
+The README files in individual subfolders for the components have technical details for that section of the project. 
 
 
 License
